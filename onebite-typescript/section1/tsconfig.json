@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "target": "ESNext", // js코드 버전
+    "module": "ESNext",
+    "outDir": "dist", // 컴파일된 js 코드가 어디에 생성할지
+    "strict": true, // 엄격한 타입검사
+    "moduleDetection": "force" // 컴파일러가 자동으로 개별모듈로 취급 
+  },
+  "include": ["src"] // 컴파일의 범위 설정
+}
